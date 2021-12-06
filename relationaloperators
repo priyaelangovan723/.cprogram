@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int a=21;
+int b=30;
+//c=a+b;
+printf("the %d!=%d is %d",a,b,a!=b);
+printf("the %d<=%d is %d",a,b,a<=b);
+printf("the %d>=%d is %d",a,b,a>=b);
+printf("the %d==%d is %d",a,b,a==b);
+return 0;
+}
